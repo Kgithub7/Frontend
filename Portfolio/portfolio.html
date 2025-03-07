@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="milestone" content="Portfolio" />
+    <!-- TODO: Replace this with your title -->
+    <title>Kobi Njoku</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link href="portfolio-style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#hero-section"
+          ><i class="bi bi-braces"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto p-1">
+            <a class="nav-link" href="#mission-anchor">Mission</a>
+            <a class="nav-link" href="#skills-anchor">Skills</a>
+            <a class="nav-link" href="#contact-anchor">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section
+      id="hero-section"
+      class="d-flex justify-content-center align-items-center"
+    >
+      <div class="container-fluid p-0 text-center">
+        <img class="img-fluid headshot" src="img/Headshot.jpg" alt="" />
+        <h1 class="display-2 fw-bold name">Kobi Njoku</h1>
+        <h3 class="clamped fst-italic slogan fw-normal">Coding the future</h3>
+      </div>
+    </section>
+
+    <!-- Mission/Meet-me section -->
+    <section id="mission-section">
+      <div id="mission-anchor"></div>
+      <div class="container">
+        <div class="d-md-none">
+          <h1 class="display-4 fw-bold text-center p-3 mission-heading">
+            My Mission
+          </h1>
+          <img
+            class="img-fluid mission-image"
+            src="img/Mission.avif"
+            alt="Image of a computer setup"
+          />
+          <p class="mt-3 text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
+            dicta minima ipsa tempore hic laborum aliquid, possimus a
+            necessitatibus at soluta magnam maiores, consectetur, eius nihil
+            iusto quod. Corrupti, modi?
+          </p>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="d-none d-md-block">
+          <h1 class="display-4 fw-bold text-center p-3 mission-heading">
+            My Mission
+          </h1>
+          <div class="row align-items-center">
+            <div class="col-6">
+              <img
+                class="img-fluid mission-image"
+                src="img/Mission.avif"
+                alt="Image of a computer setup"
+              />
+            </div>
+            <div class="col-6">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
+                dicta minima ipsa tempore hic laborum aliquid, possimus a
+                necessitatibus at soluta magnam maiores, consectetur, eius nihil
+                iusto quod. Corrupti, modi?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills-section">
+      <div id="skills-anchor"></div>
+      <div class="d-md-none">
+        <div class="container">
+          <h1 class="display-4 fw-bold text-center p-3 mission-heading">
+            Skills
+          </h1>
+
+          <i class="skill devicon-html5-plain-wordmark"></i>
+          <p class="mt-3 text-center">
+            Crafting semantic, accessible, and well-structured HTML5 code to
+            build responsive and user-friendly web pages.
+          </p>
+
+          <i class="skill devicon-css3-plain-wordmark"></i>
+          <p class="mt-3 text-center">
+            Designing responsive and visually appealing layouts using modern CSS
+            techniques.
+          </p>
+
+          <i class="skill devicon-bootstrap-plain-wordmark"></i>
+          <p class="my-3 text-center">
+            Leveraging Bootstrap 5 to create responsive, mobile-first designs
+            with reusable components and consistent styling.
+          </p>
+
+          <i class="skill devicon-javascript-plain"></i>
+          <p class="py-3 m-0 text-center">
+            Creating interactive web experiences with clean and efficient
+            JavaScript code.
+          </p>
+        </div>
+      </div>
+
+      <div class="d-none d-md-block d-lg-none">
+        <div class="container">
+          <h1 class="display-4 fw-bold text-center p-3 mission-heading">
+            Skills
+          </h1>
+          <div class="row align-items-start">
+            <div class="col-6">
+              <i class="skill devicon-html5-plain-wordmark"></i>
+              <p class="mt-3 text-center">
+                Crafting semantic, accessible, and well-structured HTML5 code to
+                build responsive and user-friendly web pages.
+              </p>
+            </div>
+            <div class="col-6">
+              <i class="skill devicon-css3-plain-wordmark"></i>
+              <p class="mt-3 text-center">
+                Designing responsive and visually appealing layouts using modern
+                CSS techniques.
+              </p>
+            </div>
+          </div>
+          <div class="row align-items-start">
+            <div class="col-6">
+              <i class="skill devicon-bootstrap-plain-wordmark"></i>
+              <p class="my-3 text-center">
+                Leveraging Bootstrap 5 to create responsive, mobile-first
+                designs with reusable components and consistent styling.
+              </p>
+            </div>
+
+            <div class="col-6">
+              <i class="skill devicon-javascript-plain"></i>
+              <p class="py-3 m-0 text-center">
+                Creating interactive web experiences with clean and efficient
+                JavaScript code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="d-none d-lg-block">
+        <div class="container">
+          <h1 class="display-4 fw-bold text-center p-3 mission-heading">
+            Skills
+          </h1>
+          <div class="row">
+            <div class="col-3">
+              <i class="skill devicon-html5-plain-wordmark"></i>
+              <p class="mt-3 text-center">
+                Crafting semantic, accessible, and well-structured HTML5 code to
+                build responsive and user-friendly web pages.
+              </p>
+            </div>
+            <div class="col-3">
+              <i class="skill devicon-css3-plain-wordmark"></i>
+              <p class="mt-3 text-center">
+                Designing responsive and visually appealing layouts using modern
+                CSS techniques.
+              </p>
+            </div>
+            <div class="col-3">
+              <i class="skill devicon-bootstrap-plain-wordmark"></i>
+              <p class="my-3 text-center">
+                Leveraging Bootstrap 5 to create responsive, mobile-first
+                designs with reusable components and consistent styling.
+              </p>
+            </div>
+            <div class="col-3">
+              <i class="skill devicon-javascript-plain"></i>
+              <p class="py-3 m-0 text-center">
+                Creating interactive web experiences with clean and efficient
+                JavaScript code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact-section">
+      <div id="contact-anchor"></div>
+      <div class="d-md-none">
+        <div class="container">
+          <h1 class="display-4 fw-bold text-center p-3 mission-heading">
+            Contact Me
+          </h1>
+          <i class="contact py-3 devicon-linkedin-plain"></i>
+          <i class="contact py-3 devicon-github-original"></i>
+          <i class="contact py-3 bi bi-envelope"></i>
+        </div>
+      </div>
+
+      <div class="d-none d-md-block">
+        <div class="container">
+          <h1 class="display-4 fw-bold text-center p-3 mission-heading">
+            Contact Me
+          </h1>
+          <div class="row justify-content-center align-items-center">
+            <div class="col-4">
+              <i class="contact devicon-linkedin-plain"></i>
+            </div>
+            <div class="col-4">
+              <i class="contact devicon-github-original"></i>
+            </div>
+            <div class="col-4">
+              <i class="contact bi bi-envelope"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer section -->
+    <section
+      id="footer-section"
+      class="container-fluid d-flex align-items-center justify-content-center"
+    >
+      <p class="mb-0 p-2">&copy; Kobi Njoku 2025</p>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

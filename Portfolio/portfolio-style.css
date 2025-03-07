@@ -1,0 +1,92 @@
+body {
+  background-color: rgb(249, 229, 194);
+  font-family: Montserrat, sans-serif;
+}
+
+#hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.unsplash.com/photo-1646644197846-db6af4b56d25?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  width: 100%;
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.name,
+.slogan {
+  font-family: Montserrat, sans-serif;
+  color: #ffefe9;
+  text-shadow: 2px 2px 10px #af7663;
+}
+
+.clamped {
+  font-size: clamp(1rem, 3vw, 2rem);
+}
+
+nav,
+.navbar-brand,
+.nav-link,
+#footer-section {
+  background-color: #6d4c41;
+  color: #ffefe9;
+}
+
+.headshot {
+  min-width: 120px;
+  max-width: 15%;
+  height: auto;
+  border-radius: 50%;
+  border: 5px solid #7b5345;
+}
+
+.mission-heading {
+  color: #7b5345;
+}
+
+#mission-anchor,
+#skills-anchor,
+#contact-anchor {
+  position: relative;
+  top: -50px;
+}
+
+.mission-image {
+  border-radius: 10px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.row {
+  padding: 20px 0;
+}
+
+#skills-section {
+  background-color: rgb(255, 241, 218);
+}
+
+.skill {
+  font-size: clamp(3rem, 20vw, 8rem);
+  color: brown;
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  font-size: clamp(3rem, 20vw, 8rem);
+  color: brown;
+  display: flex;
+  justify-content: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.contact:hover {
+  color: #6d4c41;
+}
+
+.col-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
