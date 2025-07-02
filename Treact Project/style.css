@@ -667,8 +667,7 @@ PRICING ↓
   width: 30%;
   position: relative;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-radius: 4px;
   line-height: 2;
 }
 
@@ -834,7 +833,8 @@ TESTIMONIALS ↓
 }
 
 .testimonial__img--wrapper {
-  width: 15%;
+  width: 80px;
+  height: 80px;
   margin-right: 32px;
 }
 
@@ -1086,6 +1086,99 @@ MOBILE RESPONSIVENESS ↓
   footer {
     padding: 80px 32px;
   }
+
+  .nav__links {
+    display: none;
+  }
+
+  .about-us {
+    width: 60%;
+    text-align: center;
+  }
+
+  .attribute {
+    width: 50%;
+  }
+
+  .quality__description {
+    margin-right: 24px;
+  }
+
+  .about-us__heading,
+  .features__heading,
+  .quality__description--heading,
+  .steps__description--heading,
+  .values__description--heading,
+  .pricing__description--heading,
+  .testimonials__description--heading {
+    font-size: 40px;
+  }
+
+  .features__para,
+  .quality__description--para,
+  .values__description--para,
+  .testimonials__description--para,
+  .testimonial__footer--customer-name {
+    font-size: 16px;
+  }
+
+  .quality__img--wrapper {
+    padding: 0;
+  }
+
+  .values__description {
+    padding-right: 24px;
+  }
+
+  .value__para,
+  .testimonial__para,
+  .testimonial__footer--customer-position {
+    font-size: 14px;
+  }
+  .price-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price {
+    width: 50%;
+    margin: 32px 0;
+  }
+
+  .testimonials__description {
+    padding-left: 32px;
+  }
+
+  .testimonial__img--wrapper {
+    margin-right: 24px;
+  }
+
+  .testimonial__footer--btn {
+    padding: 16px;
+  }
+
+  .start__description {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .start__description--para {
+    width: 100%;
+    max-width: 512px;
+  }
+
+  .start__description--buttons {
+    margin-top: 24px;
+    width: auto;
+  }
+
+  .start__description--btn {
+    padding: 16px 32px;
+  }
+
+  .start__description--btn:nth-of-type(1) {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1101,6 +1194,77 @@ MOBILE RESPONSIVENESS ↓
   #pricing .row {
     margin-top: 40px;
   }
+
+  .container {
+    padding: 80px 0;
+  }
+
+  .about-us {
+    width: 100%;
+    align-items: center;
+  }
+
+  .customer-logo__img--heading {
+    margin-top: 64px;
+  }
+
+  .customer-logo__img {
+    margin-bottom: 64px;
+  }
+  .about-us__heading,
+  .features__heading,
+  .quality__description--heading,
+  .steps__description--heading,
+  .values__description--heading,
+  .pricing__description--heading,
+  .testimonials__description--heading {
+    font-size: 32px;
+  }
+
+  .about-us__img--wrapper,
+  .quality__img--wrapper,
+  .steps__img--wrapper,
+  .values__img--wrapper,
+  .testimonials__img--wrapper {
+    width: 80%;
+    margin-bottom: 48px;
+  }
+
+  .quality__description,
+  .values__description,
+  .testimonials__description,
+  .pricing__description {
+    text-align: center;
+  }
+
+  .value {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .value__para {
+    max-width: 80%;
+  }
+
+  .price__description--footer {
+    padding: 24px 16px;
+  }
+
+  .testimonial__footer--customer-name,
+  .testimonial__footer--customer-position {
+    text-align: left;
+  }
+
+  .footer__row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer__copyright {
+    margin: 32px 0;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1113,5 +1277,108 @@ MOBILE RESPONSIVENESS ↓
   }
   main {
     margin-bottom: 80px;
+  }
+
+  .about-us__heading,
+  .features__heading,
+  .quality__description--heading,
+  .steps__description--heading,
+  .values__description--heading,
+  .pricing__description--heading,
+  .testimonials__description--heading {
+    font-size: 24px;
+  }
+
+  .about-us__img--wrapper,
+  .quality__img--wrapper,
+  .steps__img--wrapper,
+  .values__img--wrapper,
+  .testimonials__img--wrapper {
+    width: 80%;
+    margin-bottom: 48px;
+  }
+
+  .features__para,
+  .quality__description--para,
+  .values__description--para,
+  .value__para,
+  .testimonials__description--para,
+  .testimonial__footer--customer-name {
+    font-size: 14px;
+  }
+
+  .quality__description,
+  .values__description,
+  .testimonials__description,
+  .pricing__description {
+    text-align: center;
+  }
+
+  .about-us-email {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    height: auto;
+  }
+
+  .about-us-email__input {
+    padding: 16px 0 16px 32px;
+    position: static;
+  }
+
+  .about-us-email__btn {
+    width: 100%;
+    padding: 16px 0;
+    margin: 16px 0;
+  }
+
+  .attribute {
+    width: 100%;
+  }
+
+  .value-list {
+    flex-wrap: wrap;
+  }
+
+  .price {
+    width: 80%;
+  }
+
+  .price__amount {
+    font-size: 28px;
+  }
+
+  .testimonial__footer--btn {
+    padding: 12px;
+  }
+
+  .start__description {
+    flex-direction: column;
+  }
+
+  .start__description--para {
+    font-size: 24px;
+  }
+
+  .start__description--buttons {
+    flex-direction: column;
+  }
+
+  .start__description--btn:nth-of-type(1) {
+    margin: 0 0 16px 0;
+  }
+
+  .footer__columns {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__column {
+    width: auto;
+    padding: 16px;
+  }
+
+  .footer__copyright {
+    font-size: 14px;
   }
 }
